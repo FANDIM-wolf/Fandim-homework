@@ -1,0 +1,153 @@
+body{
+    background: snow;
+    font-family: "Inter", sans-serif;
+}
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 160px;
+    max-width: 70%;
+    width: 1920px;
+    height: 72px;
+    margin-left: 4%;
+     
+}
+.main {
+    max-width: 76%;
+    margin: 0 auto; /* Центрирует контейнер на странице */
+}
+
+
+.button-login{
+    background: snow;
+    border: 0.5px solid;
+    width: 44px;
+    height: 44px;
+}
+.name_of_page{
+    display: flex;
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    color: #354153;
+
+    gap: 20px; 
+}
+.Vector{
+    width: 64px;
+    height: 64px;
+}
+.container-select{
+
+    width: 1500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between; /* Располагает элементы по краям контейнера */
+    
+}
+
+
+
+.container-buttons {
+    display: flex;
+}
+
+.button_in_container_select {
+    border-radius: 2%;
+    background: #fff;
+    padding: 8px 16px;
+    width: 131px;
+    height: 40px;
+    margin-right: auto; /* Помещает "container-buttons" в начало контейнера */
+    border: 0.5px solid;
+    border-color: #eaecf0;
+    font-family: "Inter", sans-serif;
+    line-height: 33%;
+    font-size: 15px;
+}
+
+.select_menu {
+    margin-left: auto; /* Помещает "select-option-menu" в конец контейнера */
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 178px;
+    height: 40px;
+    background: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.select_menu option {
+    background-color: #f7f7f7; /* Background color for options */
+    color: #333; /* Text color for options */
+    padding: 8px 12px; /* Padding around the option text */
+}
+
+.select_menu option:hover {
+    background-color: #e0e0e0; /* Background color on hover */
+}
+
+.select_menu option:selected {
+    background-color: #007bff; /* Background color for selected option */
+    color: #fff; /* Text color for selected option */
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    padding: 24px;
+    width: 326px;
+   
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    max-height: 37.5rem;
+    
+}
+
+.title_information{
+    display: flex;
+    justify-content: space-between; /* Размещает элементы на разных концах */
+    align-items: center; /* Выравнивает элементы по вертикали */
+    font-family: "Inter", sans-serif;
+    color: gray;
+    
+}
+.container-news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Создает 4 колонки с равной шириной */
+    gap: 5px; /* Устанавливает промежуток между элементами */
+    margin-top: 50px;
+ 
+    max-width: 82%;
+}
+.main_text{
+    color: #0D1421;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+.super_tetx{
+    color: #787878;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    height: 32px; 
+    width: 100px;
+   
+}
+.block p{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+ }
+.footertext{
+    top: 80px;
+    color: gray;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+
+   
+}
+
